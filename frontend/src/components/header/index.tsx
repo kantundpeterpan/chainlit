@@ -59,6 +59,21 @@ const Header = memo(() => {
       </div>
 
       <div />
+      <div
+        id="MMHeader"
+        style={{
+          flex: 1,
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          // fontWeight: "bold",
+          fontSize: '1.3rem',
+          color: 'white'
+        }}
+      >
+        {/* Replace with your dynamic or static title */}
+        MonsterMessenger
+      </div>
       <div className="flex items-center gap-1">
         <ReadmeButton />
         <ApiKeys />

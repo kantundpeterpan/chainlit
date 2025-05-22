@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Bellota');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 body {
   margin: 0;
   padding: 0;
@@ -130,4 +132,9 @@ code {
   -webkit-background-clip: text;
   background-repeat: no-repeat;
   background-size: 50% 200%;
+}
+
+#MMHeader {
+  font-family: 'Bellota', serif;
+  font-weight: bold;
 }
