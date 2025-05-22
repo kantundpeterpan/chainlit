@@ -72,7 +72,7 @@ const Header = memo(() => {
         }}
       >
         {/* Replace with your dynamic or static title */}
-        MonsterMessenger
+        Monster Messenger
       </div>
       <div className="flex items-center gap-1">
         <ReadmeButton />
