@@ -15,5 +15,5 @@ jobs:
           curl -X POST \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${{ secrets.PAT_TOKEN }}" \
-            https://api.github.com/repos/dataforgood/13_stop_cyberviolence/dispatches \
+            https://api.github.com/repos/dataforgoodfr/13_stop_cyberviolence/dispatches \
             -d '{"event_type": "chainlit_updated"}'
