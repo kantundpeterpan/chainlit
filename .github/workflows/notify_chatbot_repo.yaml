@@ -1,6 +1,7 @@
 name: Trigger App Docker Build
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - dev_monster
